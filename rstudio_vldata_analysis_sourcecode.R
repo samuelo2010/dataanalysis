@@ -6,6 +6,13 @@
 setwd("C:/Users/USER/Desktop/dataanalysis")
 getwd()
 
+###install tidyverse package
+install.packages("tidyverse")
+library(tidyverse)
+
+##load the vldata
+vldata<-read.csv("vldata_csv.csv")
+
 
 ###2. Data cleaning
 
